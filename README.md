@@ -1,8 +1,12 @@
-[![](https://img.shields.io/pypi/pyversions/dict.svg?longCache=True)](https://pypi.org/pypi/dict/)
-[![](https://img.shields.io/pypi/v/dict.svg?maxAge=3600)](https://pypi.org/pypi/dict/)
+<!--
+https://pypi.org/project/readme-generator/
+-->
+
+[![](https://img.shields.io/pypi/pyversions/dict.svg?longCache=True)](https://pypi.org/project/dict/)
+[![](https://img.shields.io/pypi/v/dict.svg?maxAge=3600)](https://pypi.org/project/dict/)
 [![Travis](https://api.travis-ci.org/looking-for-a-job/dict.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/dict.py/)
 
-#### Install
+#### Installation
 ```bash
 $ [sudo] pip install dict
 ```
@@ -14,8 +18,9 @@ $ [sudo] pip install dict
 * 	jQuery like **methods chaining**
 
 #### Classes
-
-###### `dict.dict`
+class|`__doc__`
+-|-
+`dict.dict` |
 
 #### Examples
 ```python
@@ -36,4 +41,6 @@ None
 >>> dict(k="v").get("K",i=True) # case insensitive
 ```
 
-<p align="center"><a href="https://pypi.org/project/readme-md/">readme-md</a> - README.md generator</p>
+<p align="center">
+    <a href="https://pypi.org/project/readme-generator/">readme-generator</a>
+</p>
