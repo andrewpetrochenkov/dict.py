@@ -1,13 +1,13 @@
 <!--
-https://pypi.org/project/readme-generator/
-https://pypi.org/project/python-readme-generator/
+https://readme42.com
 -->
 
-[![](https://img.shields.io/pypi/pyversions/dict.svg?longCache=True)](https://pypi.org/project/dict/)
-[![](https://img.shields.io/pypi/v/dict.svg?maxAge=3600)](https://pypi.org/project/dict/)
-[![Travis](https://api.travis-ci.org/looking-for-a-job/dict.py.svg?branch=master)](https://travis-ci.org/looking-for-a-job/dict.py/)
 
-#### Installation
+[![](https://img.shields.io/pypi/v/dict.svg?maxAge=3600)](https://pypi.org/project/dict/)
+[![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+[![](https://github.com/andrewp-as-is/dict.py/workflows/tests42/badge.svg)](https://github.com/andrewp-as-is/dict.py/actions)
+
+### Installation
 ```bash
 $ [sudo] pip install dict
 ```
@@ -17,11 +17,6 @@ $ [sudo] pip install dict
 * 	**None** instead of **KeyError**
 * 	safe **remove**
 * 	jQuery like **methods chaining**
-
-#### Classes
-class|`__doc__`
--|-
-`dict.dict` |
 
 #### Examples
 ```python
@@ -43,5 +38,5 @@ None
 ```
 
 <p align="center">
-    <a href="https://pypi.org/project/python-readme-generator/">python-readme-generator</a>
+    <a href="https://readme42.com/">readme42.com</a>
 </p>

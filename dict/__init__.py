@@ -1,10 +1,9 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+__all__ = ['dict']
+
 try:
     import builtins
 except ImportError:
     import __builtin__ as builtins
-import public
 import values
 
 
@@ -12,8 +11,8 @@ def _isdict(obj):
     return isinstance(obj, dict)
 
 
-@public.add
 class dict(dict):
+
     def __init__(self, *args, **kwargs):
         self.update(*args, **kwargs)
 
