@@ -39,7 +39,7 @@ class dict(dict):
         if hasattr(type(self), name):
             return object.__getattribute__(self, name)
         if name in self:
-            if isinstance(self[name], dict):  # dict
+            if isinstance(self[name], builtins.dict):  # dict
                 return dict(self[name])
             return self[name]
 
